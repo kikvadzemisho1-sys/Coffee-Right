@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    allign-items: center;
+    padding: 20px 60px;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    gap: 30px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #000;
+    font-size: 24px;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f3ee;
+    color: #2f241f;
+}
+
+header {
+    background-color: #fffaf5;
+}
+
+nav ul a{
+font-size: 16px;
+font-weight: normal;
+}
+
+nav ul a:hover {
+    color: #9b5c3b;
+}
