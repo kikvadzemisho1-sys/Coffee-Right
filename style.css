@@ -146,3 +146,34 @@ color: #f5eee6;
 .menu-item:hover {
     transform: translateY(-8px);
 }
+.why-us {
+    padding: 80px 60px;
+    background-color: #5b0f1b;
+    color: #f5eee6;
+    text-align: center;
+}
+.why-us h2 {
+    font-size: 36px;
+    margin-bottom: 40px;
+}
+.why-items {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+}
+.why-item {
+    background-color: #0d0d0d;
+    width: 300px;
+    padding: 30px 20px;
+    border-radius: 10px;
+    min-height: 140px;
+}
+.why-item h3 {
+    font-size: 22px;
+    margin-bottom: 15px;
+    color: #ffffff;
+}
+.why-item p {
+    color: #d8d0ca;
+    line-height: 1.6;
+}
