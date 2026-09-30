@@ -75,3 +75,74 @@ nav ul a:hover {
 .btn:hover {
     background-color: #b12030;
 }
+.about {
+    display: flex;
+    allign-items: center;
+    gap: 50px;
+    padding: 80px 60px;
+    background-color: #1a1a1a;
+}
+.about-image img {
+    width: 500%;
+    max-width: 100%;
+    border-radius: 10px;
+    display: block;
+}
+.about-content {
+    max-width: 500px;
+color: #f5eee6;
+}
+.about-content h2 {
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 25px;
+}
+.menu {
+    padding: 80px 60px;
+    color: #0d0d0d;
+    background-color: #f7f3ee;
+    text-align: center;
+}
+.menu h2 {
+    font-size: 36px;
+    color: #b12030;
+    margin-bottom: 40px;
+}
+.menu-items {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+}
+.menu-item {
+    background-color: #1a1a1a;
+    color: #f5eee6;
+    width: 300px;
+    padding: 20px;
+    border-radius: 10px;
+    transition:  0.3s;
+    border: 1px solid #5b0f1b;
+
+}
+.menu-item img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+.menu-item h3 {
+   margin-top: 15px;
+   font-size: 24px;
+}
+.menu-item p {
+    margin: 10px 0;
+    color: #d8d0ca;
+    line-height: 1.5;
+}
+.price {
+    color: #b12030;
+    font-size: 20px;
+    font-weight: bold;
+}
+.menu-item:hover {
+    transform: translateY(-8px);
+}
