@@ -28,7 +28,7 @@ This project was created as a frontend practice project to improve my HTML and C
 
 ## Live Demo
 
-The live demo will be available through GitHub Pages.
+https://kikvadzemisho1-sys.github.io/Coffee-Right/
 
 ## Author
 
