@@ -269,15 +269,42 @@ nav ul a:hover {
     flex-direction: column;
     gap: 15px;
 }
-contact-form input,
-contact-form textarea {
-   width: 100%;
-   padding: 14px;
-   border: 1px solid #ccc;
-   border-radius 6px;
-   font-size: 16px;
+.contact-form input,
+.contact-form textarea {
+    background-color: #ffffff;
+    color: #2f241f;
+    outline: none;
+}
+.contact-form input:focus,
+.contact-form textarea:focus {
+    border-color: #8b1e2d;
 }
 .contact-form textarea {
     resize: vertical;
     min-height: 140px;
+}
+footer {
+    background-color: #0d0d0d;
+    color: #f5eee6;
+    padding: 40px 20px;
+    text-align: center;
+}
+.footer-content h3{
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+.footer-links {
+    margin: 20px 0;
+}
+.footer-links a {
+    color: #f5eee6;
+    text-decoration: none;
+    margin: 0 12px;
+}
+.footer-links a:hover {
+    color: #c1121f;
+}
+.copyright {
+    font-size: 14px;
+    color: #bdb6b1;
 }
