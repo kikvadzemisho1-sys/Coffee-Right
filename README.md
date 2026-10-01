@@ -1,6 +1,6 @@
-# Coffee Right
+# Coffee Ride
 
-Coffee Right is a simple coffee shop website created with HTML and CSS.
+Coffee Ride is a simple coffee shop website created with HTML and CSS.
 
 ## Features
 
